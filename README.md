@@ -1,6 +1,6 @@
 📚 Book Manager API - Full Stack Project
 
-A simple full-stack CRUD Book Manager built using Node.js, Express, MongoDB Atlas, and vanilla JavaScript frontend. It allows users to create, read, update, and delete books.
+A simple full-stack CRUD Book Manager built using Node.js, Express, MongoDB Atlas, vanilla JavaScript frontend and Postman for API testing. It allows users to create, read, update, and delete books.
 
 
 🚀 Live Features
