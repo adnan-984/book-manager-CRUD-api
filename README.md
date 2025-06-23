@@ -4,97 +4,93 @@ A simple full-stack CRUD Book Manager built using Node.js, Express, MongoDB Atla
 
 🚀 Live Features
 
-✅ Add Book
+•Add Book ✅
 
-✅ View Book List
+•View Book List ✅
 
-✅ Edit/Update Book
+•Edit/Update Book ✅
 
-✅ Delete Book
+•Delete Book ✅
 
 🛠️ Tech Stack
 
-Frontend: HTML, Bootstrap, JavaScript
+•Frontend: HTML, Bootstrap, JavaScript
 
-Backend: Node.js, Express.js
+•Backend: Node.js, Express.js
 
-Database: MongoDB (Atlas)
+•Database: MongoDB (Atlas)
 
-API Testing: Postman & curl
+•API Testing: Postman & curl
 
 📂 Project Structure
 
 book-manager-ui/
 ├── models/
-│   └── Book.js
+│       └── Book.js 
 ├── routes/
-│   └── books.js
-├── public/
-│   ├── index.html
-│   └── script.js
-├── .env
-├── server.js
-├── package.json
+│       └── books.js 
+├── public/ 
+│       ├── index.html │ 
+│       └── script.js 
+├── .env 
+├── server.js 
+├── package.json 
 └── README.md
 
 🌐 API Documentation
 
-1. Get All Books
+Get All Books
+•Method: GET
 
-Method: GET
+•Endpoint: /books
 
-Endpoint: /books
-
-Response:
+•Response:
 
 [
   {
     "_id": "...",
     "title": "Atomic Habits",
-    "author": "James Clear"
-  }
+    "author": "James Clear" 
+  } 
 ]
 
-2. Add a Book
+Add a Book
+•Method: POST
 
-Method: POST
+•Endpoint: /books
 
-Endpoint: /books
+•Body: (JSON)
 
-Body: (JSON)
-
-{
+{ 
   "title": "Deep Work",
-  "author": "Cal Newport"
+  "author": "Cal Newport" 
 }
 
-Response: Newly created book object
+•Response: Newly created book object
 
-3. Update a Book
+Update a Book
+•Method: PUT
 
-Method: PUT
+•Endpoint: /books/:id
 
-Endpoint: /books/:id
-
-Body: (JSON)
+•Body: (JSON)
 
 {
   "title": "Updated Title",
-  "author": "Updated Author"
+  "author": "Updated Author" 
 }
 
-Response: Updated book object
+•Response: Updated book object
 
-4. Delete a Book
+Delete a Book
+•Method: DELETE
 
-Method: DELETE
+•Endpoint: /books/:id
 
-Endpoint: /books/:id
+•Response:
 
-Response:
-
-{
-  "message": "Book deleted"
+{ 
+"message": "Book deleted" 
 }
 
 🧪 Testing with curl
@@ -105,15 +101,15 @@ curl http://localhost:3000/books
 
 Add book:
 
-curl -X POST -H "Content-Type: application/json" \
-     -d '{"title": "1984", "author": "George Orwell"}' \
-     http://localhost:3000/books
+curl -X POST -H "Content-Type: application/json"
+-d '{"title": "1984", "author": "George Orwell"}'
+http://localhost:3000/books
 
 Update book:
 
-curl -X PUT -H "Content-Type: application/json" \
-     -d '{"title": "Updated", "author": "Author"}' \
-     http://localhost:3000/books/<book_id>
+curl -X PUT -H "Content-Type: application/json"
+-d '{"title": "Updated", "author": "Author"}'
+http://localhost:3000/books/<book_id>
 
 Delete book:
 
@@ -123,34 +119,31 @@ curl -X DELETE http://localhost:3000/books/<book_id>
 
 🖥️ Backend Setup
 
-git clone https://github.com/your-username/book-manager.git
-cd book-manager
-npm install
+git clone https://github.com/your-username/book-manager.git cd book-manager npm install
 
 Create a .env file in the root:
 
-PORT=3000
-MONGO_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/bookdb?retryWrites=true&w=majority
+PORT=3000 MONGO_URI=mongodb+srv://:@.mongodb.net/bookdb?retryWrites=true&w=majority
 
 Start the server:
 
 node server.js
 
-🌐 Frontend Setup (Optional)
+🌐 Frontend Setup
 
 You can open the index.html file in a browser directly or host it using any static server.
 
 🧠 What You Learn From This Project
 
-Full CRUD REST API development
+•Full CRUD REST API development
 
-Connecting MongoDB with Mongoose
+•Connecting MongoDB with Mongoose
 
-Structuring Express apps
+•Structuring Express apps
 
-Testing APIs using Postman & curl
+•Testing APIs using Postman & curl
 
-Making API requests from frontend using fetch
+•Making API requests from frontend using fetch
 
 📩 Feedback
 
@@ -159,4 +152,3 @@ Found this project useful or have suggestions? Feel free to fork, contribute or 
 📌 License
 
 MIT License
-
