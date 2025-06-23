@@ -2,6 +2,7 @@
 
 A simple full-stack CRUD Book Manager built using Node.js, Express, MongoDB Atlas, and vanilla JavaScript frontend. It allows users to create, read, update, and delete books.
 
+
 🚀 Live Features
 
 •Add Book ✅
@@ -12,6 +13,7 @@ A simple full-stack CRUD Book Manager built using Node.js, Express, MongoDB Atla
 
 •Delete Book ✅
 
+
 🛠️ Tech Stack
 
 •Frontend: HTML, Bootstrap, JavaScript
@@ -21,6 +23,7 @@ A simple full-stack CRUD Book Manager built using Node.js, Express, MongoDB Atla
 •Database: MongoDB (Atlas)
 
 •API Testing: Postman & curl
+
 
 📂 Project Structure
 
@@ -40,6 +43,7 @@ book-manager-ui/
 🌐 API Documentation
 
 Get All Books
+
 •Method: GET
 
 •Endpoint: /books
@@ -55,6 +59,7 @@ Get All Books
 ]
 
 Add a Book
+
 •Method: POST
 
 •Endpoint: /books
@@ -69,6 +74,7 @@ Add a Book
 •Response: Newly created book object
 
 Update a Book
+
 •Method: PUT
 
 •Endpoint: /books/:id
@@ -83,6 +89,7 @@ Update a Book
 •Response: Updated book object
 
 Delete a Book
+
 •Method: DELETE
 
 •Endpoint: /books/:id
@@ -125,13 +132,16 @@ Create a .env file in the root:
 
 PORT=3000 MONGO_URI=mongodb+srv://:@.mongodb.net/bookdb?retryWrites=true&w=majority
 
+
 Start the server:
 
 node server.js
 
+
 🌐 Frontend Setup
 
 You can open the index.html file in a browser directly or host it using any static server.
+
 
 🧠 What You Learn From This Project
 
