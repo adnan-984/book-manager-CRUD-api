@@ -4,23 +4,23 @@ A simple full-stack CRUD Book Manager built using Node.js, Express, MongoDB Atla
 
 🚀 Live Features
 
-•Add Book ✅
+✅ Add Book
 
-•View Book List ✅
+✅ View Book List
 
-•Edit/Update Book ✅
+✅ Edit/Update Book
 
-•Delete Book ✅
+✅ Delete Book
 
 🛠️ Tech Stack
 
-•Frontend: HTML, Bootstrap, JavaScript
+Frontend: HTML, Bootstrap, JavaScript
 
-•Backend: Node.js, Express.js
+Backend: Node.js, Express.js
 
-•Database: MongoDB (Atlas)
+Database: MongoDB (Atlas)
 
-•API Testing: Postman & curl
+API Testing: Postman & curl
 
 📂 Project Structure
 
@@ -41,11 +41,11 @@ book-manager-ui/
 
 1. Get All Books
 
-•Method: GET
+Method: GET
 
-•Endpoint: /books
+Endpoint: /books
 
-•Response:
+Response:
 
 [
   {
@@ -57,41 +57,41 @@ book-manager-ui/
 
 2. Add a Book
 
-•Method: POST
+Method: POST
 
-•Endpoint: /books
+Endpoint: /books
 
-•Body: (JSON)
+Body: (JSON)
 
 {
   "title": "Deep Work",
   "author": "Cal Newport"
 }
 
-•Response: Newly created book object
+Response: Newly created book object
 
 3. Update a Book
 
-•Method: PUT
+Method: PUT
 
-•Endpoint: /books/:id
+Endpoint: /books/:id
 
-•Body: (JSON)
+Body: (JSON)
 
 {
   "title": "Updated Title",
   "author": "Updated Author"
 }
 
-•Response: Updated book object
+Response: Updated book object
 
 4. Delete a Book
 
-•Method: DELETE
+Method: DELETE
 
-•Endpoint: /books/:id
+Endpoint: /books/:id
 
-•Response:
+Response:
 
 {
   "message": "Book deleted"
@@ -136,21 +136,21 @@ Start the server:
 
 node server.js
 
-🌐 Frontend Setup
+🌐 Frontend Setup (Optional)
 
 You can open the index.html file in a browser directly or host it using any static server.
 
 🧠 What You Learn From This Project
 
-•Full CRUD REST API development
+Full CRUD REST API development
 
-•Connecting MongoDB with Mongoose
+Connecting MongoDB with Mongoose
 
-•Structuring Express apps
+Structuring Express apps
 
-•Testing APIs using Postman & curl
+Testing APIs using Postman & curl
 
-•Making API requests from frontend using fetch
+Making API requests from frontend using fetch
 
 📩 Feedback
 
@@ -159,3 +159,4 @@ Found this project useful or have suggestions? Feel free to fork, contribute or 
 📌 License
 
 MIT License
+
