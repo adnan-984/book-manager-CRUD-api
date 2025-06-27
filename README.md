@@ -22,7 +22,30 @@ A simple full-stack CRUD Book Manager built using Node.js, Express, MongoDB Atla
 
 •Database: MongoDB (Atlas)
 
-•API Testing: Postman & curl
+•Dev Tools: VSCode, Postman, curl
+
+•API Testing: Jest, Supertest
+
+🧪 How to Run Tests
+✅ Install Dev Dependencies
+
+npm install --save-dev jest supertest cross-env
+
+
+▶️ Run Tests with Coverage
+
+cross-env NODE_ENV=test jest --coverage
+
+This will execute:
+
+•Unit Tests (for isolated logic)
+
+•Integration Tests (for database interactions)
+
+•API Tests (to ensure routes work as expected)
+
+
+📊 Test Coverage Screenshot
 
 
 📂 Project Structure
