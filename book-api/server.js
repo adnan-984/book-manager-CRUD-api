@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const bookRoutes = require('./book-api/routes/books');
+const bookRoutes = require('./routes/books');
 const app = express();
 
 // Middleware
